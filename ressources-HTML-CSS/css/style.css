@@ -1,0 +1,25 @@
+body {
+    font-family: 'Sunflower';
+    color: #222;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    font-family: 'Sunflower';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

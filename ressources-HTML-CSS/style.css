@@ -1,0 +1,287 @@
+body {
+    font-family: 'Sunflower';
+    color: #222;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    font-family: 'Sunflower';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #87C442;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #41823B;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-weight: 500%;
+    text-align: center;
+    line-height: normal;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 500%;
+    text-align: center;
+    line-height: normal;
+    font-size: 2.5rem;
+    color: #87C442;
+}
+
+h3 {
+    font-weight: 500%;
+    text-align: center;
+    line-height: normal;
+    font-size: 2rem;
+    color: #87C442;
+}
+
+h4 {
+    font-weight: 0;
+    text-align: center;
+}
+
+hr {
+    border: 1px, solid;
+}
+
+.acc {
+    background-image: url(img/joli-gite-desktop.jpg);
+    padding: 30% 0;
+}
+
+.acc article {
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.acc h2 {
+    color: white;
+}
+
+.gite {
+    background: linear-gradient(#DEFABB, #F6FDED);
+}
+
+.chambres article {
+    border: solid #87C442 2px;
+    border-radius: 5%;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.chambres div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chambres article p {
+    font-style: italic;
+}
+
+.spangreen {
+    color: #87C442;
+}
+
+.environs div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.environs article {
+    flex-basis: 40%;
+}
+
+.environs {
+    background: linear-gradient(#E9E9E9, #AED3F2);
+}
+
+.spanblue {
+    color: blue;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact article {
+    flex-basis: 48%;
+}
+
+button {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	color: #FFF;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	cursor: pointer;
+    background-color: #87C442;
+}
+
+fieldset {
+	border-radius: 8px;
+	border: 1px solid;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+fieldset legend {
+	font-weight: bold;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.form-row {
+	margin-bottom: 1rem;
+}
+
+label,
+.label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number],
+select,
+textarea {
+	padding: 10px;
+	width: 90%;
+	max-width: 400px;
+	border-radius: 5px;
+}
+
+input[type=checkbox]+label,
+input[type=radio]+label {
+	display: inline;
+	margin-right: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.fa-phone {
+    color: black;
+}
+
+.fa-envelope {
+    color:black;
+}
+
+footer {
+    text-align: center;
+    background-color: #41823B;
+    padding: 15px 20px;
+    color: white;
+}
+
+.iframe {
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chambres div {
+        flex-direction: column;
+    }
+
+    .chambres article {
+        flex-basis: 31%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .environs div {
+        flex-direction: column;
+    }
+
+    .chambres article {
+        flex-basis: 48%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .contact div {
+        flex-direction: column;
+    }
+
+    .contact article {
+        flex-basis: 48%;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .contact div {
+        flex-direction: column;
+    }
+
+    .contact article {
+        flex-basis: 48%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+   .accueil {
+    background-image: url(img/joli-gite.jpg);
+   }
+}
